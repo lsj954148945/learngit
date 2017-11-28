@@ -1,0 +1,75 @@
+<!--<div class="results">
+    <div class="lottery">
+        <div class="boxline">
+            <div class="lottery-type">
+                <span class="lotName">重庆时时彩</span>
+                <span class="period"><label>20171020-026</label> 期</span>
+            </div>
+            <div class="next-kj">
+                <span>距下期开奖</span>
+                <span style="color: #FF0000;">开奖中</span>
+            </div>
+        </div>
+        <div class="boxline lottery-number">
+            <ul class="ssc numberbox">
+                <li class="number1">3</li>
+                <li class="number2">6</li>
+                <li class="number3">5</li>
+                <li class="number4">4</li>
+                <li class="number5">7</li>
+            </ul>
+        </div>
+        <div class="boxline">
+            <ul class="sscli">
+                <li class="longhu">龙</li>
+                <li class="spe">|</li>
+                <li class="lastli">总和：</li>
+                <li class="total">24</li>
+                <li class="daxiao">大</li>
+                <li class="danshuang">双</li>
+                <li class="history"><font color="#FF0000"><a href="ssc.html" style="float: right;">历史记录</a></font><li>
+            </ul>
+        </div>
+    </div>
+    <div class="lottery">
+        <div class="boxline">
+            <div class="lottery-type">
+                <span class="lotName">北京PK10</span>
+                <span class="period"><label>646183</label> 期</span>
+            </div>
+            <div class="next-kj">
+                <span>距下期开奖</span>
+                <span style="color: #FF0000;">开奖中</span>
+            </div>
+        </div>
+        <div class="boxline lottery-number">
+            <ul class="pk10 numberbox">
+                <li id="okey1" class="nub06 num-blue">8</li>
+                <li id="okey2" class="nub04 num-blue">8</li>
+                <li id="okey3" class="nub09 num-blue">8</li>
+                <li id="okey4" class="nub01 num-blue">8</li>
+                <li id="okey5" class="nub05 num-blue">8</li>
+                <li id="okey6" class="nub08 num-blue">8</li>
+                <li id="okey7" class="nub07 num-blue">8</li>
+                <li id="okey8" class="nub10 num-blue">8</li>
+                <li id="okey9" class="nub02 num-blue">8</li>
+                <li id="okey0" class="nub03 num-blue">8</li>
+            </ul>
+        </div>
+        <div class="boxline">
+            <ul class="pk10 animals">
+                <li id="longhu1" class="firstDT">龙</li>
+                <li id="longhu2" class="secondDT">龙</li>
+                <li id="longhu3" class="thirdDT">虎</li>
+                <li id="longhu4" class="fourthDT">虎</li>
+                <li id="longhu5" class="fifthDT">虎</li>
+                <li class="spe">|</li>
+                <li class="lastli">冠亚和：</li>
+                <li id="guanyahe" class="sumFS">10</li>
+                <li id="guanyadaxiao" class="sumBigSamll">小</li>
+                <li id="guanyadanshuang" class="sumSingleDouble">双</li>
+                <li class="history"><font color="#FF0000"><a href="ssc.html" > 历史记录</a></font></li>
+            </ul>
+        </div>
+    </div>
+</div>-->
